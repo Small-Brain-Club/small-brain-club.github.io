@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    color: aqua;
+    color: rgb(255, 255, 255);
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -24,6 +24,13 @@
     transform: translate(-50%,-50%);
 }
 
+.title2{
+    position: absolute;
+    top: 53%;
+    left: 60%;
+    transform: translate(-50%,-50%);
+}
+
 .title h1{
     color: #fff;
     font-size: 70px;
@@ -32,6 +39,38 @@
 .title h2{
     color: #fff;
     font-size: 20px;
+}
+
+.title h3{
+    color: #fff;
+    font-size: 18px; 
+}
+
+.title2 h1{
+    color: #fff;
+    font-size: 70px;
+}
+
+.title2 h2{
+    color: #fff;
+    font-size: 20px;
+}
+
+.info{
+    position: absolute;
+    top: 97%;
+    left: 91%;
+    transform: translate(-50%,-50%);
+}
+
+.info h1{
+    color: #fff;
+    font-size: 15px;
+}
+
+.info h2{
+    color: #fff;
+    font-size: 13px;
 }
 
 .container{
@@ -101,8 +140,8 @@ ul li{
 
 ul li a{
     text-decoration: none;
-    color: aqua;
-    padding: 5px 20px;
+    color: rgb(255, 255, 255);
+    padding: 5px 19px;
     border: 1px solid transparent;
     transition: 0.6s ease;
 }
