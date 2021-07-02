@@ -1,11 +1,8 @@
-TODO: bot commands page
-
 <!DOCTYPE html>
 <html>
 <head>
     <title>Invisibility commands</title>
     <link rel="stylesheet" href="style.css">
-</head>
 <body>
     <header>
         <div class="main">
@@ -15,17 +12,62 @@ TODO: bot commands page
                 <ul>
                     <li><a href="index.html">Back to main website</a></li>
                 </ul>
-            <div class="logo">
-                <h1>Commands:</h1>
-                <h2>Prefix is "+" </h2>
-            </div>
-            <div class="container">
-                <div class="slide one">Categories: Fun , Moderation , Settings</div>
-                <div class="slide two">Category Fun: +Meme (Sends a meme) , +DankMeme (Sends a dank meme) </div>
-                <div class="slide three">Category Moderation: +Ban (Ban's the user) , +Kick (Kick's the user) , +Mute (Mute's the user) , +Unban (Unban's the user) , +Unmute (Unmute's the user), +Clear (Clear's chat) </div>
-                <div class="slide four">Category Settings: +Disable (Disable's specific category) , +Enable (Enable's specific category)</div>
-            </div>            
-        </div>
+                <body>
+                    <div class="slidershow middle">
+                
+                      <div class="slides">
+                        <input type="radio" name="r" id="r1" checked>
+                        <input type="radio" name="r" id="r2">
+                        <input type="radio" name="r" id="r3">
+                        <input type="radio" name="r" id="r4">
+                        <input type="radio" name="r" id="r5">
+                        <div class="slide s1">
+                          <h1>Category Moderation:</h1>
+                          <h2>+ban [member] [reason] || Bans a member from the server</h2>
+                          <h2>+unban [member] || Unbans a member</h2>
+                          <h2>+kick [member] [reason] || Kicks a member from the server</h2>
+                          <h2>+mute [member] [reason] || Mutes a member</h2>
+                          <h2>+unmute [member] || Unmutes a member</h2>
+                          <h2>+clear [amount] || Deletes the amount of messages</h2>
+                          <h5></h5>
+                        </div>
+                        <div class="slide">
+                          <h1>Category Fun:</h1>
+                          <h2>+meme || Sends a random meme</h2>
+                          <h2>+dankmeme || Sends a random dankmeme</h2>
+                          <h2>+joke || Tells a random joke</h2>
+                          <h2>+quote || Tells a random quote</h2>
+                        </div>
+                        <div class="slide">
+                          <h1>Category Utility:</h1>
+                          <h2>+calculate [number] [operation] [number] || Replaces your mathematical skills</h2>
+                          <h2>+reminder [what u want to be reminded about] [time] || Reminds you about something</h2>
+                          <h2>+wiki [request] || Searches wikipedia</h2>
+                          <h2>+youtube [request] || Searches youtube</h2>
+                        </div>
+                        <div class="slide">
+                          <h1>Category Info:</h1>
+                          <h2>+userinfo [user] || Sends information about the user</h2>
+                          <h2>+serverinfo || Sends information about the server</h2>
+                          <h2>+ping || Tells the current ping of the bot</h2>
+                          <h2>+uptime || Tells how long the bot has been online</h2>
+                        </div>
+                        <div class="slide">
+                          <h1>Bot Authors</h1>
+                          <h2>-CUPZYY</h2>
+                          <h2>-Vp</h2>
+                        </div>
+                      </div>
+                
+                      <div class="navigation">
+                        <label for="r1" class="bar">Moderation</label>
+                        <label for="r2" class="bar">Fun</label>
+                        <label for="r3" class="bar">Utility</label>
+                        <label for="r4" class="bar">Info</label>
+                        <label for="r5" class="bar">Bot Authors</label>
+                      </div>
+                    </div>
+                  </body>
     </header>
 </body>
 </html>
