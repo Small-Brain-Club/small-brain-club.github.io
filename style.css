@@ -1,8 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     color: rgb(255, 255, 255);
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, 'Times New Roman', Times, sansserif;
 }
 
 .logo img{
@@ -12,7 +13,7 @@
 }
 
 .main{
-    max-width: 1995px;
+    max-width: 1990px;
     margin: auto;
 
 }
@@ -35,6 +36,7 @@
     text-align: left;
     color: #fff;
     font-size: 70px;
+    overflow: hidden;
 }
 
 .title h2{
@@ -94,6 +96,12 @@
 .botinfo h3{
     color: #fff;
     font-size: 13px;
+}
+
+.funnystuff a{
+  color: #fff;
+    font-size: 5px;
+    top: 99%;
 }
 
 .container{
