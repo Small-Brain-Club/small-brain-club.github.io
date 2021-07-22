@@ -98,12 +98,6 @@
     font-size: 13px;
 }
 
-.funnystuff a{
-  color: #fff;
-    font-size: 5px;
-    top: 99%;
-}
-
 .container{
     position: relative;
     width: 700px;
@@ -119,7 +113,7 @@
 }
 
 .slidershow{
-    width: 700px;
+    width: 900px;
     height: 400px;
     overflow: hidden;
   }
@@ -156,8 +150,8 @@
   }
   
   .slides{
-    width: 500%;
-    height: 100%;
+    width: 800%;
+    height: 120%;
     display: flex;
     margin: 0;
     padding: 1;
@@ -192,16 +186,25 @@
     margin-left: 0;
   }
   #r2:checked ~ .s1{
-    margin-left: -20%;
+    margin-left: -14%;
   }
   #r3:checked ~ .s1{
-    margin-left: -40%;
+    margin-left: -33%;
   }
   #r4:checked ~ .s1{
     margin-left: -60%;
   }
   #r5:checked ~ .s1{
     margin-left: -80%;
+  }
+  #r6:checked ~ .s1{
+    margin-left: -100%;
+  }
+  #r7:checked ~ .s1{
+    margin-left: -120%;
+  }
+  #r8:checked ~ .s1{
+    margin-left: -140%;
   }
   
 
