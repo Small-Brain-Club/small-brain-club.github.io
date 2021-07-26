@@ -8,7 +8,7 @@
 
 .logo img{
     float: left;
-    width: 250px;
+    width: 100px;
     height: auto;
 }
 
@@ -85,17 +85,17 @@
 
 .botinfo h1{
     color: #fff;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 .botinfo h2{
     color: #fff;
-    font-size: 15px;
+    font-size: 20px;
 }
 
 .botinfo h3{
     color: #fff;
-    font-size: 13px;
+    font-size: 15px;
 }
 
 .container{
@@ -221,6 +221,55 @@ header{
     height: 100vh;
     background-size: cover;
     background-position: center;
+}
+
+/* ---- stats.js ---- */
+
+.count-particles{
+  background: #000022;
+  position: absolute;
+  top: 48px;
+  left: 0;
+  width: 80px;
+  color: #13E8E9;
+  font-size: .8em;
+  text-align: left;
+  text-indent: 4px;
+  line-height: 14px;
+  padding-bottom: 2px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+
+.js-count-particles{
+  font-size: 1.1em;
+}
+
+#stats,
+.count-particles{
+  -webkit-user-select: none;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+
+#stats{
+  border-radius: 3px 3px 0 0;
+  overflow: hidden;
+}
+
+.count-particles{
+  border-radius: 0 0 3px 3px;
+}
+
+
+/* ---- particles.js container ---- */
+
+#particles-js{
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../small-brain-club.github.io/img/background.png);
+  height: 95vh;
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;  
 }
 
 ul{
