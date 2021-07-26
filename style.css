@@ -217,7 +217,7 @@
 
 
 header{
-    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../small-brain-club.github.io/img/background.png);
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../small-brain-club.github.io/img/background1.png);
     height: 100vh;
     background-size: cover;
     background-position: center;
@@ -265,7 +265,7 @@ header{
 /* ---- particles.js container ---- */
 
 #particles-js{
-  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../small-brain-club.github.io/img/background.png);
+  background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../small-brain-club.github.io/img/background1.png);
   height: 95vh;
   background-size: cover;
     background-position: center;
