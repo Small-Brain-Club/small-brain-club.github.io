@@ -59,21 +59,55 @@
     font-size: 20px;
 }
 
-.info{
+.update{
     position: absolute;
     top: 97%;
     left: 91%;
     transform: translate(-50%,-50%);
 }
 
-.info h1{
+.update h1{
     color: #fff;
     font-size: 15px;
 }
 
-.info h2{
+.update h2{
     color: #fff;
     font-size: 13px;
+}
+
+.aboutus{
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translate(-50%,-50%); 
+}
+
+.aboutus h1{
+  color: #fff;
+    font-size: 35px;
+}
+
+.aboutus h2{
+  color: #fff;
+    font-size: 25px;
+}
+
+.aboutus2{
+  position: absolute;
+  top: 40%; 
+  left: 50%;
+  transform: translate(-50%,-50%); 
+}
+
+.aboutus2 h1{
+  color: #fff;
+    font-size: 35px;
+}
+
+.aboutus2 h2{
+  color: #fff;
+    font-size: 25px;
 }
 
 .botinfo{
