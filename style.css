@@ -151,19 +151,22 @@
     height: 700px;
     overflow: hidden;
   }
+
   .middle{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%,-50%);
   }
+
   .navigation{
     position: absolute;
-    bottom: 20px;
+    bottom: 50px;
     left: 50%;
     transform: translateX(-50%);
     display: flex;
   }
+  
   .bar{
     width: 100px;
     height: 20px;
@@ -185,7 +188,7 @@
   
   .slides{
     width: 800%;
-    height: 120%;
+    height: 100%;
     display: flex;
     margin: 0;
     padding: 1;
@@ -249,6 +252,15 @@
     100%{ transform: translateX(-700px); }
 }
 
+.footer {
+  clear: both;
+  padding: 5px;
+  margin-top: 0px;
+  text-align: center;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", serif;
+  font-size: 70%;
+  left: 50%;
+}
 
 header{
     background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../small-brain-club.github.io/img/background1.png);
