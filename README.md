@@ -1,5 +1,5 @@
 # small-brain-club.github.io
-Website for Small brain club.
+Website for Small Brain Club.
 
 Powered by Vp's trash html coding skills.
 
