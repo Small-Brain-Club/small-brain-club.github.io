@@ -6,133 +6,133 @@
     font-family: Georgia, 'Times New Roman', Times, sansserif;
 }
 
-.logo img{
+#logo img{
     float: left;
     width: 100px;
     height: auto;
 }
 
-.main{
+#main{
     max-width: auto;
     margin: auto;
 
 }
 
-.title{
+#title{
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
 }
 
-.title2{
+#title2{
     position: absolute;
     top: 53%;
     left: 60%;
     transform: translate(-50%,-50%);
 }
 
-.title h1{
+#title h1{
     text-align: left;
     color: #fff;
     font-size: 70px;
     overflow: hidden;
 }
 
-.title h2{
+#title h2{
     color: #fff;
     font-size: 20px;
 }
 
-.title h3{
+#title h3{
     color: #fff;
     font-size: 18px; 
 }
 
-.title2 h1{
+#title2 h1{
     color: #fff;
     font-size: 30px;
 }
 
-.title2 h2{
+#title2 h2{
     color: #fff;
     font-size: 20px;
 }
 
-.update{
+#update{
     position: absolute;
-    top: 97%;
-    left: 91%;
+    top: 95%;
+    left: 95%;
     transform: translate(-50%,-50%);
 }
 
-.update h1{
+#update h1{
     color: #fff;
     font-size: 15px;
 }
 
-.update h2{
+#update h2{
     color: #fff;
     font-size: 13px;
 }
 
-.aboutus{
+#aboutus{
   position: absolute;
   top: 20%;
   left: 50%;
   transform: translate(-50%,-50%); 
 }
 
-.aboutus h1{
+#aboutus h1{
   color: #fff;
     font-size: 35px;
 }
 
-.aboutus h2{
+#aboutus h2{
   color: #fff;
     font-size: 25px;
 }
 
-.aboutus2{
+#aboutus2{
   position: absolute;
-  top: 40%; 
+  top: 50%; 
   left: 50%;
   transform: translate(-50%,-50%); 
 }
 
-.aboutus2 h1{
+#aboutus2 h1{
   color: #fff;
     font-size: 35px;
 }
 
-.aboutus2 h2{
+#aboutus2 h2{
   color: #fff;
     font-size: 25px;
 }
 
-.botinfo{
-    position: absolute;
+#botinfo{
+  position: absolute;
     top: 70%;
     left: 50%;
     transform: translate(-50%,-50%); 
 }
 
-.botinfo h1{
+#botinfo h1{
     color: #fff;
     font-size: 25px;
 }
 
-.botinfo h2{
+#botinfo h2{
     color: #fff;
     font-size: 20px;
 }
 
-.botinfo h3{
+#botinfo h3{
     color: #fff;
     font-size: 15px;
 }
 
-.container{
+#container{
     position: relative;
     width: 700px;
     height: 400px;
@@ -141,7 +141,7 @@
     box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
-.container mod{
+#container mod{
     color: #fff;
     font-size: 15px;
 }
@@ -153,33 +153,33 @@
   }
 
   .middle{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-  }
+  position: absolute;
+  top: 50%;    
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
 
-  .navigation{
-    position: absolute;
-    bottom: 50px;
-    left: 50%;
-    transform: translateX(-50%);
-    display: flex;
-  }
+.navigation{
+  position: absolute;
+  bottom: 50px;
+  left: 50%;  
+  transform: translateX(-50%);
+  display: flex;
+}
   
-  .bar{
+.bar{
     width: 100px;
     height: 20px;
     border: 2px solid #fff;
     margin: 6px;
     cursor: pointer;
     transition: 0.4s;
-  }
+}
 
-  .bar:hover{
-    background: #fff;
-    color: #000;
-  }
+.bar:hover{
+  background: #fff;
+  color: #000;
+}
   
   input[name="r"]{
       position: absolute;
@@ -252,21 +252,11 @@
     100%{ transform: translateX(-700px); }
 }
 
-.footer {
+#footer {
   clear: both;
   padding: 5px;
   margin-top: 0px;
   text-align: center;
-  font-family: "Lucida Sans Unicode", "Lucida Grande", serif;
-  font-size: 70%;
-  left: 50%;
-}
-
-.copyright {
-  clear: both;
-  text-align: center;
-  padding: 5px;
-  margin-top: 0px;
   font-family: "Lucida Sans Unicode", "Lucida Grande", serif;
   font-size: 70%;
   left: 50%;
