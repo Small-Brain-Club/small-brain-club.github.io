@@ -9,4 +9,4 @@ https://smallbrain.club
 ## Credits
 Credits to:
 
-[Vincent Garreau](github.com/VincentGarreau/particles.js) for the particles 😎
+[Vincent Garreau](https://github.com/VincentGarreau/particles.js) for the particles 😎
