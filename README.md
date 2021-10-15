@@ -3,89 +3,10 @@ Website for Small Brain Club.
 
 Powered by Vp's trash html coding skills.
 
-## CLICK LINK BELOW 😳😳😳😳😳😳😳😳😳😳😳😳
+https://smallbrain.club
 
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
-https://smallbrain.club
+
+## Credits
+Credits to:
+
+[Vincent Garreau](github.com/VincentGarreau/particles.js) for the particles 😎
