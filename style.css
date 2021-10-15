@@ -135,8 +135,7 @@ button:hover{
     background: transparent;
     overflow: hidden;
     position: relative;
-    left: 30%;
-    top: 20%;
+    left: 29%;
 }
 
 .topnav a {
@@ -191,7 +190,7 @@ button:hover{
 }
 
 .commands{
-    top: 180%;
+    top: 200%;
     width: 100%;
     position: absolute;
     transform: translateY(-50%);
