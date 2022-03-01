@@ -1,92 +1,201 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: sans-serif;
     scroll-behavior: smooth;
 }
 
-#particles-js{
-    width: 100%;
-    height: 85%;
+body, html {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
 }
 
-.banner{
+#particles-js {
+    width: auto;
+    height: 50%;
+}
+
+.banner {
     width: 100%;
     height: 100vh;
-    background-image: linear-gradient(rgba(0,0,0,0.75), rgba(0,0,0,0.75)),url("../img/background.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("../img/background.png");
     background-size: cover;
     background-position: center;
-    position: fixed;
+    background-repeat: no-repeat;
 }
 
-.navbar{
-    width: 85%;
+.title {
+    width: auto;
+    color: #ffffff;
+    font-size: 12px;
+    margin: 0;
+    padding: 5px;
+    cursor: default;
+}
+
+.navbar {
+    width: 90%;
     margin: auto;
-    padding: 35px 0;
-    display: flex;
+    padding-top: 5px;
+    display: inline-flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.title{
-    width: auto;
-    cursor: pointer;
-    color: #ffffff;
-    margin: 0;
-    padding: 0;
-}
-
-.navbar ul li{
+.navbar ul li {
     list-style: none;
-    display: inline-block;
+    display: inline-flex;
     margin: 0 20px;
-    position: relative;
-    left: 50px;
+    padding: 5px;
 }
 
-.navbar ul li a{
+.navbar ul li a {
     text-decoration: none;
-    color: #fff;
+    color: #ffffff;
     text-transform: uppercase;
-}
-
-.navbar ul li::after{
-    content: "";
-    height: 3px;
-    width: 0;
-    background: #ffffff;
-    position: absolute;
-    left: 0;
-    bottom: -10px;
+    font-size: 15px;
     transition: 0.5s;
 }
 
-.navbar ul li:hover::after{
-    width: 100%;
+.navbar ul li a:hover {
+    color: #8d8d8d;
+    font-size: 18px;
+    transition: 0.5s;
 }
 
-.content{
+.content {
     width: 100%;
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
+    justify-content: center;
+    transform: translateY(150%);
     text-align: center;
     size: auto;
     color: #ffffff;
 }
 
-.content h1{
-    font-size: 70px;
-    margin-top: 80px;
+.content h1 {
+    font-size: 50px;
 }
 
-.content p{
-    margin: 20px auto;
+.content p {
+    padding: 5px;
+}
+
+.content ul li {
+    text-transform: uppercase;
+    display: inline-flex;
+    margin: 0 20px;
+    padding: 15px;
+    cursor: pointer;
+}
+
+.content ul li a {
+    text-decoration: underline;
+    color: #ffffff;
+    font-size: 15px;
+    transition: 0.5s;
+}
+
+.content ul li a:hover {
+    font-size: 18px;
+    color: #8d8d8d;
+    transition: 0.5s;
+}
+
+.box {
+    display: inline-block;
+    width: 420px;
+    max-width: 50%;
+    height: auto;
+    max-height: 60%;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 15px;
+    text-align: center;
+    margin: 25px;
+    color: white;
+    font-family: 'Century Gothic', sans-serif;
+}
+
+.box-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.box h1 {
+    font-size: 40px;
+    letter-spacing: 4px;
     font-weight: 100;
-    line-height: 25px;
 }
 
-button{
+.box h5 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.box h2 {
+    padding: 20px;
+    font-size: 20px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+
+.box p {
+    font-size: 15px;
+    padding: 5px;
+    text-align: center;
+}
+
+.box p a {
+    text-decoration: none;
+}
+
+.links {
+    text-align: center;
+    left: 50%;
+    padding-top: 10px;
+    justify-content: space-between;
+}
+
+.links p {
+    transition: 0.5s;
+    text-transform: uppercase;
+    text-decoration: underline;
+    font-size: 12px;
+}
+
+.links a {
+    text-decoration: none;
+    font-size: 15px;
+    margin: 5px;
+    display: inline-block;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.links a p:hover {
+    color: #b9b9b9;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.icons a {
+    font-size: 15px;
+    list-style: none;
+    margin: 20px 20px;
+    padding: 20px 20px;
+    display: inline-block;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.icons a:hover {
+    color: #b9b9b9;
+    transition: 0.5s;
+}
+
+button {
     width: 200px;
     padding: 15px 0;
     text-align: center;
@@ -97,32 +206,29 @@ button{
     background: transparent;
     color: #ffffff;
     cursor: pointer;
-    position: relative;
-    overflow: hidden;
 }
 
-span{
+span {
     background: #ffffff;
     height: 100%;
     width: 0;
     border-radius: 25px;
-    position: absolute;
     left: 0;
     bottom: 0;
     z-index: -1;
     transition: 0.5s;
 }
 
-button:hover span{
+button:hover span {
     width: 100%;
 }
 
-button:hover{
+button:hover {
     border: none;
     color: #000000;
 }
 
-.topnav-title h1{
+.topnav-title h1 {
     color: #ffffff;
     text-align: center;
     position: relative;
@@ -152,25 +258,25 @@ button:hover{
     color: black;
 }
 
-.usage h1{
+.usage h1 {
     text-align: center;
     font-size: 5px;
 }
 
-.topnav-content{
+.topnav-content {
     color: #ffffff;
     margin: 20px auto;
     overflow: hidden;
 
 }
 
-.topnav-content p{
+.topnav-content p {
     margin: 20px auto;
     font-weight: 100;
     line-height: 25px;
 }
 
-.topnav-content h1{
+.topnav-content h1 {
     text-align: center;
     text-decoration: #ffffff underline;
     color: #ffffff;
@@ -180,7 +286,7 @@ button:hover{
     font-size: 35px;
 }
 
-.topnav-content h2{
+.topnav-content h2 {
     text-align: center;
     color: #ffffff;
     margin: 20px auto;
@@ -189,7 +295,7 @@ button:hover{
     font-size: 15px;
 }
 
-.commands{
+.commands {
     top: 200%;
     width: 100%;
     position: absolute;
@@ -199,13 +305,18 @@ button:hover{
     color: #ffffff;
 }
 
-#footer {
-    clear: both;
-    padding: 5px;
-    margin-top: 0px;
+.footer {
+    position: fixed;
+    width: 100%;
+    height: 20px;
+    max-height: 40px;
+    padding: 0;
+    margin: 0;
     text-align: center;
+    bottom: 0;
     font-family: "Lucida Sans Unicode", "Lucida Grande", serif;
     font-size: 70%;
     color: #ffffff;
-    left: 50%;
+    background: none;
+    background-color: none;
 }
