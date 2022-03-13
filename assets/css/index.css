@@ -5,7 +5,8 @@
     scroll-behavior: smooth;
 }
 
-body, html {
+body,
+html {
     text-align: center;
     justify-content: center;
     align-items: center;
